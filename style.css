@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    background: #ffe6c9;
+}
+.container form{
+    display: flex;
+    width: 1050px;
+    height: 600px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+form .form{
+    width: 350px;
+}
+.container form img{
+    height: 600px;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+form .form .logo img{
+    height: 60px;
+    width: 60px;
+}
+form .form{
+    padding: 20px;
+    padding-left: 45px;
+    padding-top: 8%;
+}
+form .form .text-login{
+    font-size: 20px;
+    font-weight: 600;
+    color: #525252;
+}
+form .form .see-business{
+    font-size: 9px;
+}
+form .form .login-google{
+    position: relative;
+}
+form .form .login-google button img{
+    width: 30px;
+    height: 30px;
+    margin-right: 40%;
+}
+form .form .login-google b{
+    font-size: 7px;
+    position: absolute;
+    right: 35%;
+    top: 25px;
+    pointer-events: none;
+    font-weight: 400;
+}
+form .form .login-google button{
+    width: 100%;
+    margin-top: 13px;
+    background: #fff;
+    border: 0.5px solid #E8E8E8;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 9px;
+}
+form .form .login-email hr{
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 55px;
+    color: #E8E8E8;
+    border: none;
+    border-top: dotted 1px;
+}
+form .form .login-email span{
+    position: absolute;
+    left: 74.3%;
+    bottom: 55.4%;
+    font-size: 7px;
+    background: #fff;
+}
+form .form .inputs{
+    margin-top: 25px;
+}
+form .form .inputs .email,
+form .form .inputs .password{
+    font-size: 14px;
+    color: #525252;
+}
+form .form .inputs input[type=email],
+form .form .inputs input[type=password]{
+    width: 100%;
+    background: #fff;
+    border: 0.5px solid #E8E8E8;
+    height: 30px;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+}
+form .form .inputs input[type=email]::placeholder,
+form .form .inputs input[type=password]::placeholder{
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 10px;
+}
+form .form .inputs .passwords{
+    margin-top: 10px;
+}
+form .form .remember-me{
+    font-size: 10px;
+    position: relative;
+}
+form .form .remember-me .remember{
+    display: flex;
+    margin-top: 10px;
+    color: rgb(226, 224, 224);
+}
+form .form .remember-me a{
+    float: right;
+    color: #7F265B;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    
+}
+form .form .remember-me input[type="checkbox"]{
+    background-color: #7F265B !important;
+    color: #fff;
+}
+form .form .login button{
+    margin-top: 25px;
+    width: 100%;
+    background: #7F265B;
+    border: 0.5px solid #E8E8E8;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 11px;
+    color: #fff;
+}
+form .form .not-registered{
+    position: absolute;
+    bottom: 7%;
+    font-size: 8px;
+    left: 73%;
+}
+form .form .not-registered b{
+    color: #7F265B;
+    cursor: pointer;
+}
