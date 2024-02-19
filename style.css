@@ -121,6 +121,9 @@ form .form .remember-me .remember{
     margin-top: 10px;
     color: rgb(226, 224, 224);
 }
+form .form .remember-me input[type='checkbox'] {
+    accent-color: #7F265B;
+}
 form .form .remember-me a{
     float: right;
     color: #7F265B;
@@ -129,10 +132,6 @@ form .form .remember-me a{
     right: 0;
     bottom: 3px;
     
-}
-form .form .remember-me input[type="checkbox"]{
-    background-color: #7F265B !important;
-    color: #fff;
 }
 form .form .login button{
     margin-top: 25px;
